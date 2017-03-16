@@ -1,0 +1,8 @@
+front-end/node_modules/
+front-end/bower_components/
+front-end/coverage/
+front-end/.sass-cache/
+front-end/.idea/
+front-end/.tmp/
+front-end/dist/
+back-end/node_modules/
