@@ -1,9 +1,4 @@
 <div class="container">
-
-  <div>
-    <acme-navbar creation-date="main.creationDate"></acme-navbar>
-  </div>
-
   <div class="panel panel-default">
     <div class="panel-heading">Add New Book</div>
     <div class="panel-body">
@@ -18,8 +13,8 @@
     <div class="panel-heading">Books</div>
     <div class="panel-body">
       <ul class="list-group">
-        <li class="list-group-item" nt-repeat="book inmain.books">
-          {{book.book}}
+        <li class="list-group-item" ng-repeat="bk in main.books">
+          {{bk.book}}
         </li>
       </ul>
     </div>

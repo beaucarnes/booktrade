@@ -27,6 +27,10 @@ app.post('/api/book', function(req,res){
     res.status(200);
 })
 
+app.post('/auth/register', function(req,res){
+    console.log(req.body);
+})
+
 function GetBooks(req, res)
 {
     Book.find({}).exec(function(err, result){
